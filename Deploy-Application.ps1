@@ -127,8 +127,8 @@ Try {
 		Show-InstallationProgress
 
 		## <Perform Pre-Installation tasks here>
-		Remove-MSIApplications -name 'VMware Player' -AddParameters 'REMOVE=ALL'
-		Start-Sleep -Seconds 10
+		##Remove-MSIApplications -name 'VMware Player' -AddParameters 'REMOVE=ALL'
+		##Start-Sleep -Seconds 10
 
 
 
